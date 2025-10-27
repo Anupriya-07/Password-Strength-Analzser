@@ -29,7 +29,7 @@ with open('custom_wordlist.txt', 'w') as f:
     for word in wordlist:
         f.write(word + '')
 print("Wordlist created as custom_wordlist.txt")
-:import tkinter as tk
+import tkinter as tk
 from zxcvbn import zxcvbn
 
 def check_password():
